@@ -11,3 +11,10 @@ steps:
   args: ['run', 'deploy', 'runwithcicd', '--image', 'gcr.io/kubernetes-projects-448514/runimage', '--region', 'us-central1', '--allow-unauthenticated']
 images:
 - gcr.io/kubernetes-projects-448514/runimage
+
+options:
+  logging: CLOUD_LOGGING_ONLY
+
+timeout: 1600s
+
+

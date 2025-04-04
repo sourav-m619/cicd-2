@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Welcome to Python Flask World v3.0.0 from cicd in Cloud Run'
+    return 'Welcome to Python Flask World v3.0 from cicd in Cloud Run'
 
 
 if __name__ == '__main__':
